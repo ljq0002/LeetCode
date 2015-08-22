@@ -13,11 +13,11 @@ import java.util.*;
 
 public class TwoSum {
 	public int[] twoSum(int[] nums, int target) {
-        int[] res ={-1,-1};
+        	int[] res ={-1,-1};
 		if(nums==null || nums.length==0)
-        {
-        	return res;
-        }
+       		{
+       			return res;
+       		}
 		
 		HashMap<Integer,Integer> hm = new HashMap<Integer,Integer>();
 		for(int i = 0 ; i < nums.length ; i++)
@@ -34,6 +34,6 @@ public class TwoSum {
 			}
 		}
 		return res;
-    }
+    	}
 	
 }
