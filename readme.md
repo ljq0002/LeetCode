@@ -10,7 +10,9 @@ Thank you.
   </tr>
   <tr>
     <td>1</td>
-    <td>  [TwoSum](https://github.com/ljq0002/LeetCode/blob/master/src/leetcode/TwoSum.java)<br/>  </td>
+    <td>  
+    [TwoSum](https://github.com/ljq0002/LeetCode/blob/master/src/leetcode/TwoSum.java)<br/>  
+    </td>
     <td>Medium</td>
   </tr>
 </table>
