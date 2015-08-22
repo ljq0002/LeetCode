@@ -2,17 +2,7 @@ Hello.
 It's my pleasure to receive your advice.
 Thank you.
     [TwoSum](https://github.com/ljq0002/LeetCode/blob/master/src/leetcode/TwoSum.java)<br/>  
-<table border="1">
-  <tr>
-    <th>#</th>
-    <th>Title</th>
-    <th>Difficulty</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>  
-    [TwoSum](https://github.com/ljq0002/LeetCode/blob/master/src/leetcode/TwoSum.java)<br/>  
-    </td>
-    <td>Medium</td>
-  </tr>
-</table>
+| # | Title | Solution | Difficulty |
+|---| ----- | -------- | ---------- |
+|1|[TwoSum](https://leetcode.com/problems/valid-anagram/)| [Java](./src/leetcode/TwoSum.java)|Medium|
+
