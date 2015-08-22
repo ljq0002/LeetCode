@@ -8,7 +8,7 @@ Output: 7 -> 0 -> 8
 package leetcode;
 
 public class AddTwoNumbers {
-	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if(l1 == null)
         {
         	return l2;
