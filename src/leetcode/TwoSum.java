@@ -10,7 +10,7 @@ import java.util.*;
 
 public class TwoSum {
 	public int[] twoSum(int[] nums, int target) {
-        	int[] res ={-1,-1};
+        int[] res ={-1,-1};
 		if(nums==null || nums.length==0)
        	{
        		return res;
