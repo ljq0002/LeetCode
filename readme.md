@@ -2,14 +2,15 @@ Hello.
 It's my pleasure to receive your advice.
 Thank you.
 
-[TwoSum](https://github.com/ljq0002/LeetCode/blob/master/src/leetcode/TwoSum.java)<br />
 <table border="1">
   <tr>
-    <th>Month</th>
-    <th>Savings</th>
+    <th>#</th>
+    <th>Title</th>
+    <th>Difficulty</th>
   </tr>
   <tr>
-    <td>January</td>
-    <td>$100</td>
+    <td>1</td>
+    <td>[TwoSum](https://github.com/ljq0002/LeetCode/blob/master/src/leetcode/TwoSum.java)</td>
+    <td>Medium</td>
   </tr>
 </table>
