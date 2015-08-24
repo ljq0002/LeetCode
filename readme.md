@@ -25,3 +25,12 @@ Thank you.
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](./src/leetcode/GenerateParentheses.java)|Medium|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)|[Java](./src/leetcode/SwapNodesInPairs.java)|Medium|
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Java](./src/leetcode/ReverseNodesIn_K_Group.java)|Hard|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](./src/leetcode/RemoveDuplicatesFromSortedArray.java)|Easy|
+|27|[Remove Element ](https://leetcode.com/problems/remove-element/)|[Java](./src/leetcode/RemoveElement.java)|Easy|
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Java](./src/leetcode/ImplementStrStr.java)|Easy|
+|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)|[Java](./src/leetcode/DivideTwoIntegers.java)|Medium|
+|31|[Next Permutation](https://leetcode.com/problems/next-permutation/)|[Java](./src/leetcode/NextPermutation.java)|Medium|
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](./src/leetcode/SearchInRotatedSortedArray.java)|Hard|
+|41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[Java](./src/leetcode/FirstMissingPositive.java)|Hard|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Java](./src/leetcode/TrappingRainWater.java)|Hard|
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](./src/leetcode/JumpGame_2.java)|Hard|
