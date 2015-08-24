@@ -31,6 +31,6 @@ public class TwoSum {
 			}
 		}
 		return res;
-    	}
+    }
 	
 }
