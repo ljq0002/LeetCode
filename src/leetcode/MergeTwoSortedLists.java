@@ -6,7 +6,6 @@ package leetcode;
 import java.util.LinkedList;
 import java.util.Queue;
 
-
 public class MergeTwoSortedLists {
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 		Queue sto = new LinkedList();

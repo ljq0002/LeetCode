@@ -10,27 +10,22 @@ import java.util.*;
 
 public class TwoSum {
 	public int[] twoSum(int[] nums, int target) {
-        int[] res ={-1,-1};
-		if(nums==null || nums.length==0)
-       	{
-       		return res;
- 		}
-		
-		HashMap<Integer,Integer> hm = new HashMap<Integer,Integer>();
-		for(int i = 0 ; i < nums.length ; i++)
-		{
-			if(hm.containsKey(target - nums[i]))
-			{
+		int[] res = { -1, -1 };
+		if (nums == null || nums.length == 0) {
+			return res;
+		}
+
+		HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
+		for (int i = 0; i < nums.length; i++) {
+			if (hm.containsKey(target - nums[i])) {
 				res[0] = hm.get(target - nums[i]) + 1;
 				res[1] = i + 1;
 				return res;
-			}
-			else
-			{
+			} else {
 				hm.put(nums[i], i);
 			}
 		}
 		return res;
-    }
-	
+	}
+
 }

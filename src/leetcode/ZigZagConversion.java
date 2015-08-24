@@ -15,31 +15,26 @@ package leetcode;
 
 public class ZigZagConversion {
 	public String convert(String s, int numRows) {
-        if(numRows==1)
-        {
-        	return s;
-        }
-   	 	String[] subresults = new String[numRows];
-        
-   	 	for(int i =0;i<numRows;i++)
-   	 	{
-   	 		subresults[i]="";
-   	 	}
-        for(int i =0;i<s.length();i++)
-        {
-       	 	char getc = s.charAt(i);
-       	 	int index = i%(numRows*2-2);
-       	 	if(index>numRows-1)
-       	 	{
-       	 		index = numRows-1-(index-numRows+1);
-       		}
-       	 	subresults[index]+=getc;
-        }
-        String result ="";
-        for(int i =0;i<numRows;i++)
-        {
-        	result+=subresults[i];
-        }
-        return result;
-    }
+		if (numRows == 1) {
+			return s;
+		}
+		String[] subresults = new String[numRows];
+
+		for (int i = 0; i < numRows; i++) {
+			subresults[i] = "";
+		}
+		for (int i = 0; i < s.length(); i++) {
+			char getc = s.charAt(i);
+			int index = i % (numRows * 2 - 2);
+			if (index > numRows - 1) {
+				index = numRows - 1 - (index - numRows + 1);
+			}
+			subresults[index] += getc;
+		}
+		String result = "";
+		for (int i = 0; i < numRows; i++) {
+			result += subresults[i];
+		}
+		return result;
+	}
 }

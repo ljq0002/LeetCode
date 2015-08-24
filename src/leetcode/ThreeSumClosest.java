@@ -11,62 +11,52 @@ import java.util.Arrays;
 
 public class ThreeSumClosest {
 	public int threeSumClosest(int[] nums, int target) {
-        Arrays.sort(nums);
-        int res = 0;
-        int dist = Integer.MAX_VALUE;
-        for(int i =0;i<nums.length-2;i++)
-        {
-       	 int subres = twoSumClosest(i+1,nums,target-nums[i]);
-       	 int newres = subres+nums[i];
-       	 if(newres>target)
-       	 {
-       		 if(newres-target<dist)
-       		 {
-       			 res = newres;
-       			 dist = newres-target;
-       		 }
-       	 }
-       	 else if(newres<target)
-       	 {
-       		 if(target-newres<dist)
-       		 {
-       			 res = newres;
-       			 dist = target - newres;
-       		 }
-       	 }
-       	 else return target;
-       	 
-        }
-        return res;
-    }
-    public int twoSumClosest(int from, int[] nums, int target) {
-        int dist = Integer.MAX_VALUE;
-        int res = 0;
-        int head = nums.length-1;
-        int tail = from;
-        while(tail<head)
-        {
-       	if(nums[head]+nums[tail]>target)
-       	{
-       		if(nums[head]+nums[tail]-target<dist)
-       		{
-       			dist = nums[head]+nums[tail]-target;
-       			res=nums[head]+nums[tail];
-       		}
-       		head--;
-       	}
-       	else if(nums[head]+nums[tail]<target)
-       	{
-       		if(target-nums[head]-nums[tail]<dist)
-       		{
-       			dist = target-nums[head]-nums[tail];
-       			res=nums[head]+nums[tail];
-       		}
-       		tail++;
-       	}
-       	else return target;
-        }
-        return res;
-    }
-    
+		Arrays.sort(nums);
+		int res = 0;
+		int dist = Integer.MAX_VALUE;
+		for (int i = 0; i < nums.length - 2; i++) {
+			int subres = twoSumClosest(i + 1, nums, target - nums[i]);
+			int newres = subres + nums[i];
+			if (newres > target) {
+				if (newres - target < dist) {
+					res = newres;
+					dist = newres - target;
+				}
+			} else if (newres < target) {
+				if (target - newres < dist) {
+					res = newres;
+					dist = target - newres;
+				}
+			} else {
+				return target;
+			}
+
+		}
+		return res;
+	}
+
+	public int twoSumClosest(int from, int[] nums, int target) {
+		int dist = Integer.MAX_VALUE;
+		int res = 0;
+		int head = nums.length - 1;
+		int tail = from;
+		while (tail < head) {
+			if (nums[head] + nums[tail] > target) {
+				if (nums[head] + nums[tail] - target < dist) {
+					dist = nums[head] + nums[tail] - target;
+					res = nums[head] + nums[tail];
+				}
+				head--;
+			} else if (nums[head] + nums[tail] < target) {
+				if (target - nums[head] - nums[tail] < dist) {
+					dist = target - nums[head] - nums[tail];
+					res = nums[head] + nums[tail];
+				}
+				tail++;
+			} else
+				return target;
+		}
+		return res;
+	}
+
 }
