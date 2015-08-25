@@ -34,4 +34,8 @@ Thank you.
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[Java](./src/leetcode/FirstMissingPositive.java)|Hard|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Java](./src/leetcode/TrappingRainWater.java)|Hard|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](./src/leetcode/JumpGame_2.java)|Hard|
+|46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](./src/leetcode/Permutations.java)|Medium|
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./src/leetcode/Permutations_2.java)|Hard|
+|51|[N-Queens](https://leetcode.com/problems/n-queens/)|[Java](./src/leetcode/N_Queens.java)|Hard|
+|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[Java](./src/leetcode/N_Queens_2.java)|Hard|
 
