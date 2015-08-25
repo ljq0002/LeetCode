@@ -38,4 +38,10 @@ Thank you.
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/)|[Java](./src/leetcode/Permutations_2.java)|Hard|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/)|[Java](./src/leetcode/N_Queens.java)|Hard|
 |52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/)|[Java](./src/leetcode/N_Queens_2.java)|Hard|
-
+|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Java](./src/leetcode/MergeIntervals.java)|Hard|
+|57|[Insert Interval](https://leetcode.com/problems/insert-interval/)|[Java](./src/leetcode/InsertInterval.java)|Hard|
+|65|[ValidNumber](https://leetcode.com/problems/valid-number/)|[Java](./src/leetcode/ValidNumber.java)|Hard|
+|72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[Java](./src/leetcode/EditDistance.java)|Hard|
+|87|[Scramble String](https://leetcode.com/problems/scramble-string/)|[Java](./src/leetcode/ScrambleString.java)|Hard|
+|99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|[Java](./src/leetcode/RecoverBinarySearchTree.java)|Hard|
+|115|
