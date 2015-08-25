@@ -50,4 +50,6 @@ Thank you.
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](./src/leetcode/LongestConsecutiveSequence.java)|Hard|
 |135|[Candy](https://leetcode.com/problems/candy/)|[Java](./src/leetcode/Candy.java)|Hard|
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Java](./src/leetcode/CopyListWithRandomPointer.java)|Hard|
+|149|[Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)|[Java](./src/leetcode/MaxPointsOnALine.java)|Hard|
+|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Java](./src/leetcode/SlidingWindowMaximum.java)|Hard|
 
