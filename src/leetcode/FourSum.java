@@ -42,11 +42,13 @@ public class FourSum {
 		}
 
 		for (int i = 0; i < nums.length - 3; i++) {
-			if (i > 0 && nums[i] == nums[i - 1])
+			if (i > 0 && nums[i] == nums[i - 1]) {
 				continue;
+			}
 			for (int j = i + 1; j < nums.length - 2; j++) {
-				if (j > i + 1 && nums[j] == nums[j - 1])
+				if (j > i + 1 && nums[j] == nums[j - 1]) {
 					continue;
+				}
 
 				if (twosum.containsKey(target - nums[i] - nums[j])) {
 					List<int[]> targetlist = (List<int[]>) twosum.get(target - nums[i] - nums[j]);
