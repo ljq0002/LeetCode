@@ -44,4 +44,10 @@ Thank you.
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[Java](./src/leetcode/EditDistance.java)|Hard|
 |87|[Scramble String](https://leetcode.com/problems/scramble-string/)|[Java](./src/leetcode/ScrambleString.java)|Hard|
 |99|[Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/)|[Java](./src/leetcode/RecoverBinarySearchTree.java)|Hard|
-|115|
+|115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](./src/leetcode/DistinctSubsequences.java)|Hard|
+|117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)|[Java](./src/leetcode/PopulatingNextRightPointersInEachNode_2.java)|Hard|
+|124|[BinaryTreeMaximumPathSum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Java](./src/leetcode/BinaryTreeMaximumPathSum.java)|Hard|
+|128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](./src/leetcode/LongestConsecutiveSequence.java)|Hard|
+|135|[Candy](https://leetcode.com/problems/candy/)|[Java](./src/leetcode/Candy.java)|Hard|
+|138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Java](./src/leetcode/CopyListWithRandomPointer.java)|Hard|
+
